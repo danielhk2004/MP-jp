@@ -9,9 +9,11 @@ ja:
   tags_label: "タグ:"
   categories_label: "カテゴリ:"
   updated_label: "更新日:"
+  updated: "更新日:"
 
 ja-JP:
   recent_posts: "最新の記事"
   tags_label: "タグ:"
   categories_label: "カテゴリ:"
   updated_label: "更新日:"
+  updated: "更新日:"
