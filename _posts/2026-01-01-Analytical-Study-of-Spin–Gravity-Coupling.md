@@ -1,0 +1,19 @@
+---
+title: "平面重力波時空におけるスピン–重力結合の解析的研究"
+categories:
+  - 量子論
+  - 重力
+tags:
+  - MPD方程式
+  - スピン・重力結合
+---
+<p style="color:#1e3a8a !important; font-weight:bold;">
+平面重力波時空におけるスピン–重力結合の解析的研究
+</p>
+<p align="center">
+  <img src="/MP/assets/images/SGC.jpeg" width="750">
+</p>
+---
+本ノートでは、既存の手法を用いて、Mathisson–Papapetrou–Dixon（MPD）方程式を通じて平面重力波時空におけるスピン–重力結合を研究する。幾何学的な単純さのためにローゼン座標系を採用し、スピン一次の近似においてMPD方程式を解析する。本解析により、スピンベクトルを平行輸送された直交正規テトラッドへ射影することで保存量が導かれること、またスピン–曲率結合が測地線運動からの偏差を生じさせることが示される。本手法は特定の波形や初期条件に依存せず、任意の偏極を持つ平面重力波に対して一般的な取り扱いを可能にする。
+
+[平面重力波時空におけるスピン–重力結合の解析的研究]({{ site.baseurl }}/files/Analytical Study of Spin–Gravity Coupling.pdf)
