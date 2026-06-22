@@ -1,0 +1,368 @@
+---
+---
+@import "minimal-mistakes";
+
+/* ==========================
+   Galaxy Background
+========================== */
+body {
+  background-image: url("../images/galaxy-bg.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+}
+/* ==========================
+   Dark Overlay
+========================== */
+body::before {
+
+  content: "";
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background: rgba(5,10,20,.65);
+
+  pointer-events: none;
+
+  z-index: -1;
+}
+/* ==========================
+   Readability
+========================== */
+
+.page__content,
+.page__content p,
+.page__content li,
+.page__content ul,
+.page__content ol {
+
+  color: #111827 !important;
+
+}
+
+.page__title {
+
+  color: #111827 !important;
+}
+
+/* ==========================
+   Glass Navbar
+========================== */
+.masthead {
+
+  background: rgba(15,23,42,.35) !important;
+
+  backdrop-filter: blur(15px);
+
+  -webkit-backdrop-filter: blur(15px);
+
+  border-bottom: 1px solid rgba(255,255,255,.1);
+
+}
+.greedy-nav {
+
+  background: transparent !important;
+}
+
+/* ==========================
+   Sidebar Glass
+========================== */
+
+
+/* ==========================
+   Links
+========================== */
+
+a {
+
+  color: #7dd3fc !important;
+
+  transition: .3s;
+
+}
+
+a:hover {
+
+  color: #38bdf8 !important;
+
+  text-shadow: 0 0 10px #38bdf8;
+
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+.btn,
+.btn--primary,
+.btn--info,
+.btn--inverse {
+
+  background: #2563eb !important;
+
+  border-radius: 12px;
+
+  border: none;
+}
+.btn:hover,
+.btn--primary:hover,
+.btn--info:hover,
+.btn--inverse:hover {
+
+  background: #3b82f6 !important;
+
+  box-shadow: 0 0 15px rgba(59,130,246,.8);
+
+}
+
+/* ==========================
+   Post Cards
+========================== */
+
+.archive__item {
+
+  background: rgba(255,255,255,.88);
+
+  backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+
+  padding: 20px;
+
+  transition: .3s;
+
+}
+
+.archive__item:hover {
+
+  transform: translateY(-5px);
+
+}
+.page__content {
+
+  background: rgba(255,255,255,.88);
+
+  backdrop-filter: blur(8px);
+
+  padding: 25px;
+
+  border-radius: 20px;
+   
+  width: calc(100% + 200px);
+   
+  max-width: none !important;
+}
+.sidebar {
+  background: rgba(255,255,255,.99) !important;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+.archive__item {
+  padding-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+.archive__item h2,
+.archive__item h3 {
+  margin-top: 0 !important;
+}
+.archive__item p {
+  margin-top: 0 !important;
+}
+.archive__item__content {
+  padding-top: 0 !important;
+}
+/* ==========================
+   GLASS SYSTEM (SAFE VERSION)
+   فقط ظاهر، بدون تغییر layout
+========================== */
+
+/* Titles (فقط خوانایی روی بک‌گراند) */
+.page__title,
+.archive__title,
+.archive__subtitle {
+  background: rgba(255,255,255,.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 6px 12px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+/* Buttons (بدون تغییر layout) */
+.btn,
+.btn--primary,
+.btn--info,
+.btn--inverse {
+  background: rgba(255,255,255,.88) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+
+/* Tags & Categories (بدون تغییر چینش) */
+.tag,
+.page__taxonomy,
+.taxonomy__count,
+.taxonomy__index {
+  background: rgba(255,255,255,.88) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 2px 8px;
+}
+
+/* Back to top button */
+.back-to-top,
+.greedy-nav__toggle {
+  background: rgba(255,255,255,.88) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+   
+}
+
+/* Archive cards (پست‌ها) */
+.archive__item {
+  background: rgba(255,255,255,.88);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+/* داخل کارت‌ها هیچ تغییری در layout نمی‌دهیم */
+.archive__item h2,
+.archive__item h3,
+.archive__item p {
+  margin-top: 0 !important;
+}
+h1.page__title:empty {
+  display: none !important;
+}
+.archive__item {
+  width: calc(100% + 125px);
+  max-width: none !important;
+}
+.my-profile,
+.author,
+.sidebar__right,
+.sidebar {
+  margin-left: -50px !important;
+}
+.site-title {
+  transform: translateX(-50px);
+}
+.page__content {
+  transform: translateX(60px);
+}
+.page__title {
+  transform: translateX(60px);
+}
+.page__taxonomy {
+  transform: translateX(60px);
+}
+.page__taxonomy {
+  margin-bottom: 4px !important;
+}
+.page__date {
+  background: rgba(255,255,255,.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  padding: 6px 12px;
+  border-radius: 12px;
+
+  display: inline-block;
+
+  transform: translateX(60px);
+}
+.pagination {
+  display: none !important;
+}
+
+.pagination--pager {
+  display: none !important;
+}
+.page__title {
+  margin-left: -60px !important;
+}
+.page__title.p-name {
+  display: none !important;
+}
+.page__footer-copyright,
+.page__footer-follow {
+  display: none !important;
+}
+.page__footer {
+  background: transparent !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
+@media (max-width: 768px) {
+
+  /* پروفایل */
+  .my-profile,
+  .author,
+  .sidebar,
+  .sidebar__right {
+    margin-left: 0 !important;
+  }
+
+  /* عنوان سایت */
+  .site-title {
+    transform: none !important;
+  }
+
+  /* کارت‌های صفحه اصلی */
+  .archive__item {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* محتوای مقاله */
+  .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
+    transform: none !important;
+    margin-left: 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* عنوان مقاله */
+  .page__title {
+    transform: none !important;
+    margin-left: 0 !important;
+  }
+
+  /* تگ‌ها و کتگوری‌ها */
+  .page__taxonomy {
+    transform: none !important;
+    margin-left: 0 !important;
+  }
+
+  /* تاریخ */
+  .page__date {
+    transform: none !important;
+  }
+}
