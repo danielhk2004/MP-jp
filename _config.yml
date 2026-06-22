@@ -12,7 +12,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Physics and Mathematics
+title: 物理学および数学
 email:
 description: >- # this means to ignore newlines until "baseurl:"
 minimal_mistakes_skin: default
@@ -47,9 +47,9 @@ plugins:
   - jemoji  
   - jekyll-include-cache
 author:
-  name   : "Daniel Hakimi"
+  name   : "ダニエル・ハキミ"
   avatar : "/assets/images/4.jpg"
-  bio    : "Physics and Mathematics student at Sharif University of Technology."
+  bio    : "シャリフ工科大学の物理学・数学専攻の学生。"
   links:
     - label: "Gmail"
       icon: "fas fa-envelope"
