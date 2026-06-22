@@ -12,11 +12,9 @@ border-radius:10px;
 box-shadow:0 2px 10px rgba(0,0,0,.08);
 line-height:1.8;
 }
-
 .profile-card p{
 margin:0 0 1em 0;
 }
-
 .profile-card p:last-child{
 margin-bottom:0;
 }
