@@ -270,16 +270,16 @@ h1.page__title:empty {
   margin-left: -50px !important;
 }
 .site-title {
-  transform: translateX(-50px);
+  transform: translateX(0px);
 }
 .page__content {
-  transform: translateX(60px);
+  transform: translateX(0px);
 }
 .page__title {
-  transform: translateX(60px);
+  transform: translateX(0px);
 }
 .page__taxonomy {
-  transform: translateX(60px);
+  transform: translateX(0px);
 }
 .page__taxonomy {
   margin-bottom: 4px !important;
@@ -294,7 +294,7 @@ h1.page__title:empty {
 
   display: inline-block;
 
-  transform: translateX(60px);
+  transform: translateX(0px);
 }
 .pagination {
   display: none !important;
@@ -304,7 +304,7 @@ h1.page__title:empty {
   display: none !important;
 }
 .page__title {
-  margin-left: -60px !important;
+  margin-left: 0px !important;
 }
 .page__title.p-name {
   display: none !important;
