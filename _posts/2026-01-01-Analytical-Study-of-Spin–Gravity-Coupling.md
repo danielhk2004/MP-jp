@@ -8,7 +8,7 @@ tags:
   - スピン・重力結合
 ---
 <p style="color:#1e3a8a !important; font-weight:bold;">
-平面重力波時空におけるスピン–重力結合の解析的研究
+平面重力波時空におけるスピン–重力結合の解析的研究。
 </p>
 <p align="center">
   <img src="/MP/assets/images/SGC.jpeg" width="750">
