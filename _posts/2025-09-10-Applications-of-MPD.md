@@ -8,7 +8,7 @@ tags:
   - スピン・重力結合
 ---
 <p style="color:#1e3a8a !important; font-weight:bold;">
-MPD方程式の応用
+MPD方程式の応用。
 </p>
 <p align="center">
   <img src="/MP/assets/images/MPD1.png" width="750">
