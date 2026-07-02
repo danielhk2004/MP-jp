@@ -7,7 +7,7 @@ tags:
   - 回転座標系
 ---
 <p style="color:#1e3a8a !important; font-weight:bold;">
-回転座標系におけるマクスウェル方程式。
+回転座標系におけるマクスウェル方程式
 </p>
 <p align="center">
   <img src="/MP/assets/images/MXL.png" width="750">
