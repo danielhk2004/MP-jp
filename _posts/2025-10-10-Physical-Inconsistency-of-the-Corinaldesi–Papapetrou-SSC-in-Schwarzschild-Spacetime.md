@@ -8,7 +8,7 @@ tags:
   - スピン・重力結合
 ---
 <p style="color:#1e3a8a !important; font-weight:bold;">
-シュワルツシルト時空におけるコリナルデージ＝パパペトル補助条件（SSC）の物理的不整合性。
+シュワルツシルト時空におけるコリナルデージ＝パパペトル補助条件（SSC）の物理的不整合性
 </p>
 <p align="center">
   <img src="/MP/assets/images/MPDCP.png" width="750">
