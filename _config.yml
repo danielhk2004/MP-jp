@@ -50,7 +50,7 @@ plugins:
 author:
   name   : "ダニエル・ハキミ"
   avatar : "/assets/images/4.jpg"
-  bio    : "シャリフ工科大学の物理学・数学専攻の学生。"
+  bio    : "理論物理学・数学"
   links:
     - label: "Gmail"
       icon: "fas fa-envelope"
