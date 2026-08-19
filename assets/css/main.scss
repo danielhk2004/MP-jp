@@ -189,10 +189,10 @@ a:hover {
 }
 /* ==========================
    GLASS SYSTEM (SAFE VERSION)
-   فقط ظاهر، بدون تغییر layout
+    layout
 ========================== */
 
-/* Titles (فقط خوانایی روی بک‌گراند) */
+/* Titles  */
 .page__title,
 .archive__title,
 .archive__subtitle {
@@ -204,7 +204,7 @@ a:hover {
   display: inline-block;
 }
 
-/* Buttons (بدون تغییر layout) */
+/* Buttons  */
 .btn,
 .btn--primary,
 .btn--info,
@@ -215,7 +215,7 @@ a:hover {
   border-radius: 12px;
 }
 
-/* Tags & Categories (بدون تغییر چینش) */
+/* Tags & Categories  */
 .tag,
 .page__taxonomy,
 .taxonomy__count,
@@ -241,7 +241,7 @@ a:hover {
    
 }
 
-/* Archive cards (پست‌ها) */
+/* Archive cards */
 .archive__item {
   background: rgba(255,255,255,.88);
   backdrop-filter: blur(12px);
@@ -250,7 +250,7 @@ a:hover {
   margin-bottom: 15px;
 }
 
-/* داخل کارت‌ها هیچ تغییری در layout نمی‌دهیم */
+/*  layout  */
 .archive__item h2,
 .archive__item h3,
 .archive__item p {
@@ -361,7 +361,7 @@ h1.page__title:empty {
 
 @media (max-width: 768px) {
 
-  /* پروفایل */
+  /* P*/
   .my-profile,
   .author,
   .sidebar,
@@ -369,18 +369,18 @@ h1.page__title:empty {
     margin-left: 0 !important;
   }
 
-  /* عنوان سایت */
+  /* T */
   .site-title {
     transform: none !important;
   }
 
-  /* کارت‌های صفحه اصلی */
+  /*PC */
   .archive__item {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  /* محتوای مقاله */
+  /* C */
   .page__content {
     width: 100% !important;
     max-width: 100% !important;
@@ -390,19 +390,19 @@ h1.page__title:empty {
     box-sizing: border-box !important;
   }
 
-  /* عنوان مقاله */
+  /* PT */
   .page__title {
     transform: none !important;
     margin-left: 0 !important;
   }
 
-  /* تگ‌ها و کتگوری‌ها */
+  /* TC */
   .page__taxonomy {
     transform: none !important;
     margin-left: 0 !important;
   }
 
-  /* تاریخ */
+  /* D */
   .page__date {
     transform: none !important;
   }
